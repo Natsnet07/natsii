@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(155, 152, 152);
+
+}
+h1,h2,h3,h4,h5{
+    color: blue;
+    font-size: large;
+    }
+h1{
+    font-size:xx-large;
+}
+
+p{
+    color:white;
+}
+ul{
+    color:white;
+
+}
+.image1{
+    border-radius: 150px;
+    background:rgb(78, 77, 77);
+    padding:12px;
+    border:1px solid rgb(36, 33, 33);
+}
+.image{
+    border-radius: 150px;
+    background:rgb(78, 77, 77);
+    padding:12px;
+    border:1px solid rgb(36, 33, 33);
+
+}

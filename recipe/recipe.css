@@ -1,0 +1,21 @@
+h1,h2,h3,h4,h5{
+    text-align: center;
+    background-color: #F0F0F0;
+    font-family:Lucida Sans Unicode, Helvetica, Arial ;
+    color:#A4A400;
+    text-decoration: underline;
+    text-underline-position: below;
+}
+h2,h3,h4,h5{
+    font-size: large;
+    text-align: left;
+    }
+body{
+background-image: url(food.jpg);
+}
+hr{
+    color:silver;
+}
+blockquote{
+    background-color: #f7f790;
+}

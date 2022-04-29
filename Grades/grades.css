@@ -1,0 +1,56 @@
+body{
+    background-image: url("backm.jpg");
+    width: 100%;
+    margin-right: 350px;
+}
+.home{
+vertical-align: middle;
+}
+.appform{
+text-align: center;
+font-size: 2em;
+border-radius: 20px;
+}
+.apf{
+background-image: url("co.jpg");
+border-width: 10px;
+position: absolute;
+margin: 80px;
+border-radius: 20px;
+
+}
+
+p{
+columns: 2;
+text-align: justify;
+}
+
+input[type="text"]{
+font-family: Arial;
+background-color:lightgrey;
+color: Black;
+font-weight: bold;
+}
+input[type="submit"]{
+    
+    font-family: "times new roman";
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-image: url("capital.jpg");
+    border: 2px solid black;
+    background-color:lightgrey;
+    border-radius: 30px;
+    color: white;
+}
+input[type="reset"]{
+    font-family: "times new roman";
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-image: url("capital.jpg");
+    border: 2px solid black;
+    background-color:lightgrey;
+    border-radius: 30px;
+    color: white;
+}
