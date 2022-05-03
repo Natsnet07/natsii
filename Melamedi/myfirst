@@ -1,0 +1,7 @@
+function myFunction(){
+alert("Here i am when it's clicked");
+}
+function myHome(){
+
+ alert("Home sweet home");
+}

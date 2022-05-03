@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <script>
+    function calculateTip() {
+      let subtotal = document.getElementById('subtotal').value;
+      let tip = document.getElementById('tip').value;
+      let total = (parseFloat(subtotal) * parseFloat(tip) / 100) + parseFloat(subtotal);
+      document.getElementById('total').innerText = '$' + total;
+    }
+  </script>
+
+  <title>Tip Calculator</title>
+  <link href="cal.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>
+    <img id="logo" src="cal.png" alt="Calculator">
+    Tip Calculator
+  </h1>
+
+  <div>
+    <label><input id="subtotal" type="text"> $ Subtotal</label>
+  </div>
+
+  <div>
+    <label><input id="tip" type="text"> % Tip</label>
+  </div>
+
+  <div>
+    <button id="btn" onclick="calculateTip();">Calculate Tip</button>
+  </div>
+  <hr>
+  <div>
+    <h2>Your total:</h2>
+    <p id="total">$0.00</p>
+  </div>
+  <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fibuba.github.io/ibu/TipCalculator/tipcalculator.html">
+    <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" />
+  </a>
+  <em> ****</em>
+  <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fibuba.github.io/ibu/TipCalculator/cal.css">"
+    <img alt="Valid CSS!" src="vcss.gif" />
+  </a>
+</body>
+
+</html>
