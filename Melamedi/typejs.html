@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="diemo"></p>
+    <p id="dimo"></p>
+    <p id="dii"></p>
+    <script>
+    document.getElementById("demo").innerHTML=
+    (null===undefined) + "<br>" + //false (compares type)
+    (null==undefined) + "<br><br>" + //true(by value)
+    typeof undefined + "<br>" + //undefined
+    typeof null;   //object
+ </script>
+
+ <script>
+let person={Name:"Natsnet", lname:"Ghirmay", age:28};
+document.getElementById("diemo").innerHTML= person;//[ object  object]
+</script>
+
+<script>
+function myCelsius(f){
+return(5/9)*(f-10);
+}
+document.getElementById("dimo").innerHTML=myCelsius; //returns the definition of the function if only function name called. 
+</script>
+
+<script>
+function toCelsius(f){
+return (5/9)*(f-10);
+}
+let x =toCelsius(77);
+let text ="The temperature is " + x + " Celsius";
+document.getElementById("dii").innerHTML=text;
+</script>
+</body>
+</html>
