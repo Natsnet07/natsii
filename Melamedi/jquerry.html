@@ -5,9 +5,11 @@
 </script>
 <script>
     function mn(){
-        $(".nnn").fadeToggle(2000)
-            
-       }
+        $(".nnn").fadeToggle(2000);
+        }
+     function animate(){
+      $(".demo").animate({left: '250px'});
+     }   
 </script>
  
        </head>
@@ -18,6 +20,9 @@
     <p>This is another paragraph.</p>
 </div>
      <button onclick="mn()">Click me</button>
+     <button onclick="animate()">Animate</button>
+     <div class="demo" style="background:#98bf21;height:100px;width:100px;position:absolute;">
+        </div>
     </body>
     </html>
     

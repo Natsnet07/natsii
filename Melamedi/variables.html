@@ -21,6 +21,7 @@
     <p id="day"></p>
     <p id="asd"></p>
     <p id="didi"></p>
+    <p id="di"></p>
    <script>
        let x= 28 +" "+ "is my age and i will be 29 soon.";
        document.getElementById("demo").innerHTML=x;
@@ -82,14 +83,18 @@ document.getElementById("day").innerHTML= myFunction(4,3);
 </script>
 
 <script>
-let xx=myFun(4,10);
-document.getElemetById("didi").innerHTML=xx;
-console.log(xx);
 function myFun(x,y){
 return x+y+x+y;
 }
+let xx=myFun(4,10);
+document.getElemetById("didi").innerHTML=xx;
 </script>
 
+<script>
+const person1 = {name:"Natsnet", age:28, lname:"Ghirmay"};
+document.getElementById("di").innerHTML= person1.name;
+</script>
 
 </body>
 </html>
+
