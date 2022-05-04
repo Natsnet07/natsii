@@ -1,0 +1,18 @@
+body{
+    margin:20px;
+    padding:20;
+    border: 2px;
+}
+
+#form{
+    border-style: inset;
+    margin-right: 700px;
+    background-color: grey;
+}
+h1{
+    color: chocolate;
+    background-color: aquamarine;
+    border-style: inset;
+    margin-right: 700px;
+
+}
