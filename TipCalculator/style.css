@@ -1,0 +1,28 @@
+img{
+    height: 200px;
+    width: 200px;
+    
+}
+
+
+body{
+    background-color: gray;
+    font-size: 120%;
+}
+#btn{
+    font-size: 16px;
+    background-color: coral;
+}
+#head{
+    background-color: rgb(57, 116, 226);
+    padding: 20px;
+   margin: auto;
+   width: 800px;
+   height: 600px;
+   border-radius: 10px;
+   
+}
+
+label{
+    font-size: 120%;
+}

@@ -1,0 +1,26 @@
+for(let i=0; i<10; i++){//// For loop
+     console.log(i);
+}
+
+for( let i=1; i<10; i++){
+    if(i===3){
+    continue; // if i=3 it will skip
+}
+ if(i===7){
+     break; //it will move out of loop when it found 7(display 1 2 3 4 5 6)
+ }
+
+    console.log(i);
+}
+let i=0; //// while loop
+while(i< 10){
+console.log(i);
+i++;
+}
+let j=0; //// do while loop
+do {
+ console.log(i);
+ i++;
+} while(i<10);
+    
+

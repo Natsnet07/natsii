@@ -17,6 +17,10 @@
     <p id="will"></p>
     <p id="wil"></p>
     <p id="aa"></p>
+    <p id="a"></p>
+    <p id="day"></p>
+    <p id="asd"></p>
+    <p id="didi"></p>
    <script>
        let x= 28 +" "+ "is my age and i will be 29 soon.";
        document.getElementById("demo").innerHTML=x;
@@ -61,6 +65,31 @@ document.getElementById("wil").innerHTML=carName; // output= Natsnet
 let a= 10+20+30;
 document.getElementById("aa").innerHTML=a;
 </script>
+
+<script>
+document.getElementById("a").innerHTML= 
+typeof 34 + "<br>" +
+typeof "Natsnet" + "<br>" +
+"john".constructor + "<br>";
+
+</script>
+
+<script>
+    function myFunction(p1,p2){
+    return p1*p2;
+}
+document.getElementById("day").innerHTML= myFunction(4,3);
+</script>
+
+<script>
+let xx=myFun(4,10);
+document.getElemetById("didi").innerHTML=xx;
+console.log(xx);
+function myFun(x,y){
+return x+y+x+y;
+}
+</script>
+
 
 </body>
 </html>
