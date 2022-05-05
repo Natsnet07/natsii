@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"> </script>
+     <script>
+     function myFun(){
+     $("#demo").click(function(){
+         $("p").hide();
+      });}
+    function myFun1(){
+        $("#dimo").click(
+            function(){
+                $("p").show();
+            });  
+           }
+    </script>
+</head>
+  <body>
+   <p>Hello everyone.We have a ceremony today.Come and join us.</p>
+   <button id="demo" onclick="myFun()"> Hide </button>
+   <button id="dimo" onclick="myFun1()"> Show </button>
+</body>
+</html>

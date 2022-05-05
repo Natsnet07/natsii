@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+   function fademe(){
+       $("button").click(
+           function(){
+               $("#demo").fadeIn("slow");
+               $("#dimo").fadeIn(3000);
+           });
+         }
+     </script>
+</head>
+<body>
+    <div id="demo" style="background-color: blueviolet; width: 200px; height: 200px; display: none;"></div><br><br>
+    <div id="dimo" style="background-color: brown; width: 200px; height: 200px; display:none;"></div><br>
+    <button onclick="fademe()">FADE</button>
+</body>
+</html>
