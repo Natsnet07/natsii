@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js">
+    </script>
+    <script>
+    function myFun(){
+      $("p:first").hide();
+     }
+     function myFun1(){
+      $("#demo").hide();
+     }
+     function myFun2(){
+      $("#dimo").hide();
+     }
+     function myFun3(){
+      $("#deem").mouseleave(
+          function(){
+              alert("I am out coming to there.")
+          });
+        }
+    function miFun(){
+     $("#diim").click(function(){
+         $("#diem").hide()
+     });
+     }
+    </script>
+</head>
+<body>
+    <p ondblclick="myFun()"> My name is Natsnet Ghirmay Berhe.</p>
+    <p id="demo" onclick="myFun1()"> I am taking my master's in MIU.</p>
+    <P id="dimo" onclick="myFun2()"> I will start my job soon.</P><br><br>
+    <p id="deem" onmouseleave="myFun3()">Here i am.</p>
+    <button id="diim" onclick="miFun()">Clickme</button>
+    <button id="diem">hide me</button>
+</body>
+</html>
