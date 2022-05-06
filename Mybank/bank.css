@@ -1,0 +1,13 @@
+body{
+
+   margin: 20px;
+}
+#form{
+border-style: inset;
+margin-right: 700px;
+background-color: rgb(128, 128, 128);
+
+}
+#field{
+    border: 20px;
+}
