@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h1 style="color:rgb(190, 183, 170); font-family:Arial, Helvetica, sans-serif">Simple Calculator</h1>
+    <form action = "http://localhost:8080/cal.js">
+        <fieldset>
+            <legend style="background-color: rgb(170, 163, 149);">enter two numbers:</legend>
+        <div>
+        <input type = "text" name="first"/><br/> 
+        <input type = "text" name="second"/><br/> 
+
+<select name="operation" id="operation">
+<option id="add" value="add">Add</option>
+<option value="subtract">Subtract</option>
+<option value="multiply">Multiply</option>
+<option value="division">Divide</option>
+</select>
+
+ <input type="submit" value="Click" style="background-color: rgb(187, 178, 161); height: 27px; width: 75px;"/>  
+   
+</div>
+        </fieldset>
+    </form>
+</body>
+</html>
