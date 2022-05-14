@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>CS472: ASCII Animation Viewer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./styles/ascii2.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<header>CSE 190 M ASCII Animation Viewer</header>
+<div class="container">
+	<textarea id="text" cols="80" rows="20"></textarea>
+	<br>
+	<fieldset>
+		<legend>Play Controls:</legend>
+		<button id="start">Start</button>
+		<button disabled="disabled" id="stop">Stop</button>
+	</fieldset>
+
+	<fieldset>
+		<legend>Animation:</legend>
+		<select id="animation">
+			<option selected="selected" value="Blank">Blank</option>
+			<option value="Exercise">Exercise</option>
+			<option value="Juggler">Juggler</option>
+			<option value="Bike">Bike</option>
+			<option value="Dive">Dive</option>
+		</select>
+	</fieldset>
+	<fieldset>
+		<legend>Size:</legend>
+		<select id="fontOps">
+			<option id='tiny' value='7'>Tiny</option>
+			<option id='small' value='10'>Small</option>
+			<option id='medium' value='12' selected="selected">Medium</option>
+			<option id='large' value='16'>Large</option>
+			<option id='extralarge' value='24'>Extra Large</option>
+			<option id='xxl' value='32'>XXL</option>
+		</select>
+	</fieldset>
+	<fieldset>
+		<legend>Speed:</legend>
+		<label><input id="turbo" type="checkbox">Turbo</label>
+	</fieldset>
+</div>
+<div id="validate">
+	<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fnatsnet07.github.io/natsii/Ascii/ASCIImation.html"> <img
+		src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png"
+		alt="html validator"/>
+	</a><br>
+	<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fnatsnet07.github.io/natsii/Ascii/ascii.css" ><img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png" 
+		alt="CSS validator"/></a><br>
+	<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fnatsnet07.github.io/natsii/Ascii/animations.js">
+		<img src="http://mumstudents.org/cs472/2013-09/images/w3c-js.png" class="checkImgs" alt="JavaScript Lint">
+	</a>
+
+
+</div>
+
+<script src="./js/animations.js" ></script>
+<script src="./js/ascii2.js" ></script>
+
+</body></html>
