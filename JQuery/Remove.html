@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+   <script>
+       function fun(){
+           $("button").click(
+               function(){
+                   $("#demo").remove();
+               });
+              }
+               </script>
+         </head>
+     <body>
+    <div id="demo" style="background-color: yellow; width:400px; 
+    height: 200px; border: 1px solid;position: relative;">
+     <p>What is your name?</p>
+     <p>My name is Natsnet Ghirmay.</p>
+     <p>How is everything going on?</p>
+     <p>Hope all is going well?</p>
+     </div>
+    <button onclick="fun()">Remove</button>
+    </body>
+    </html>
+
