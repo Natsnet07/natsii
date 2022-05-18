@@ -1,0 +1,15 @@
+{
+  "name": "visualcodeprojects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Dictionary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mesut Kutlu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql": "^2.18.1"
+  }
+}
