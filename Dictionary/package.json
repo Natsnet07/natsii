@@ -1,15 +1,16 @@
 {
   "name": "visualcodeprojects",
   "version": "1.0.0",
-  "description": "",
   "main": "Dictionary.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mesut Kutlu",
+  "author": "Shewit Hagos",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2",
-    "mysql": "^2.18.1"
-  }
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "description": ""
 }

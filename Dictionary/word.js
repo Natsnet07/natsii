@@ -1,10 +1,11 @@
-var mysql = require('mysql')
-var connection = mysql.createConnection({
+var mysql2 = require('mysql2')
+var connection = mysql2.createConnection({
     host: '127.0.0.1',
     user: 'root',
-    password: 'ibumomdat',
-    port:'3006',
+    password: 'root',
+    port: "3306",
     database: 'entries'
+
 })
 connection.connect()
 exports.searchTerm = function(term, res) {
